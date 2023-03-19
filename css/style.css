@@ -110,7 +110,6 @@ img[src="images/logo/Booki.png"] {
     img[src="images/logo/Booki.png"] {
         padding-top: 32px;
         margin: 0 auto;
-        padding-left: 32px;
     }
 
     .navbar ul {
@@ -311,7 +310,6 @@ button[type="submit"]:hover {
 }
 
 .filter-button-icon {
-    /* background-color: #DEEBFF; */
     color: #0065FC;
     display: flex;
     height: 50px;
@@ -328,8 +326,6 @@ button[type="submit"]:hover {
 }
 
 .filter-button:hover {
-    /* color: #0065FC; */
-    /* border-color: #0065FC; */
     background-color: #DEEBFF;
     cursor: pointer;
 }
@@ -590,7 +586,8 @@ aside {
 }
 
 .populaires-title i {
-    padding-right: 40px
+    padding-right: 40px;
+    color: #0065FC;
 }
 
 .populaires-cards {
@@ -770,36 +767,9 @@ aside {
     flex-wrap: wrap;
 }
 
-.activites-left {
-    display: flex;
-    box-sizing: border-box;
-    width: 50%;
-    justify-content: space-between;
-    flex-shrink: 1;
-    gap: 40px;
-    padding-right: 20px;
-}
-
-.activites-right {
-    display: flex;
-    box-sizing: border-box;
-    width: 50%;
-    justify-content: space-between;
-    flex-shrink: 1;
-    gap: 40px;
-    padding-left: 20px;
-}
-
-.card-row-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    width: 50%;
-}
-
 .activites-large-card {
     height: 448px;
-    width: 50%;
+    width: 302px;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 16px;
     transition: transform .2s;
@@ -838,50 +808,12 @@ img[src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"]
     font-size: 16px;
 }
 
-.activites-bsize-card {
-    height: 238px;
-    width: 100%;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 16px;
-    transition: transform .2s;
-}
-
-.activites-bsize-card:hover {
-    transform: scale(1.05);
-}
-
-.activites-bsize-card-image {
-    height: 185px;
-    overflow: hidden;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-}
 
 img[src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"] {
     object-fit: cover;
-    object-position: center;
-    height: 185px;
     width: 100%;
 }
 
-.activites-csize-card {
-    height: 168px;
-    width: 100%;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 16px;
-    transition: transform .2s;
-}
-
-.activites-csize-card:hover {
-    transform: scale(1.05);
-}
-
-.activites-csize-card-image {
-    height: 113px;
-    overflow: hidden;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-}
 
 img[src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"] {
     object-fit: cover;
@@ -889,50 +821,11 @@ img[src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"] {
     width: 100%;
 }
 
-.activites-dsize-card {
-    height: 196px;
-    width: 100%;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 16px;
-    transition: transform .2s;
-}
-
-.activites-dsize-card:hover {
-    transform: scale(1.05);
-}
-
-.activites-dsize-card-image {
-    height: 143px;
-    overflow: hidden;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-}
 
 img[src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"] {
     object-fit: cover;
     object-position: top;
-    height: 143px;
     width: 100%;
-}
-
-.activites-esize-card {
-    height: 212px;
-    width: 100%;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 16px;
-    transition: transform .2s;
-
-}
-
-.activites-esize-card:hover {
-    transform: scale(1.05);
-}
-
-.activites-esize-card-image {
-    height: 159px;
-    overflow: hidden;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
 }
 
 img[src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"] {
@@ -954,35 +847,14 @@ img[src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"] {
         min-width: 0;
     }
 
-    .activites-left,
-    .activites-right {
-        flex-wrap: wrap;
-        width: 100%;
-        padding: 0;
-        gap: 0;
-    }
-
-    .activites-esize-card,
-    .activites-bsize-card,
-    .activites-large-card,
-    .activites-csize-card,
-    .activites-dsize-card {
+    .activites-large-card {
         width: 100%;
         height: 190px;
         padding-bottom: 16px;
         margin-bottom: 16px;
     }
 
-    .card-row-container {
-        padding: 0;
-        width: 100%;
-    }
-
-    .activites-esize-card-image,
-    .activites-bsize-card-image,
-    .activites-large-card-image,
-    .activites-csize-card-image,
-    .activites-dsize-card-image {
+    .activites-large-card-image {
         height: 150px;
         width: 100%;
     }
@@ -998,22 +870,9 @@ img[src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"] {
     .activites-container {
         min-width: 0;
         gap: 32px;
+        justify-content:space-evenly
     }
 
-    .activites-left,
-    .activites-right {
-        padding: 0;
-        width: 100%;
-    }
-
-    .activites-right {
-        flex-direction: row-reverse;
-    }
-
-    .card-row-container {
-        width: 50%;
-        padding-right: 0;
-    }
 }
 
 footer {
