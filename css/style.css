@@ -345,10 +345,6 @@ button[type="submit"]:hover {
         margin-bottom: 16px;
     }
 
-    .filter-button-icon {
-        border: 1px solid #DEEBFF;
-    }
-
     .filters-title,
     .herotitle {
         padding-bottom: 16px;
