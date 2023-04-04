@@ -12,7 +12,7 @@ body {
     padding-top: 16px;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1023px) {
 
     .container {
         padding-left: 0;
@@ -137,7 +137,7 @@ img[src="images/logo/Booki.png"] {
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
 
     .filters-title {
         width: 100%;
@@ -156,7 +156,7 @@ img[src="images/logo/Booki.png"] {
     line-height: 1.5;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1023px) {
     .herotitle {
         padding-top: 24px;
     }
@@ -173,7 +173,7 @@ img[src="images/logo/Booki.png"] {
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
 
     .filters-title {
         padding-bottom: 16px;
@@ -355,7 +355,7 @@ button[type="submit"]:hover {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     .filter-button {
         margin-bottom: 16px;
         margin-right: 16px;
@@ -529,7 +529,7 @@ p.card-grid-text a:hover {
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
 
     .info-container {
         padding-top: 0;
@@ -932,7 +932,7 @@ footer a:hover {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     .footer-container {
         flex-wrap: nowrap;
         padding-left: 0;
